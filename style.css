@@ -1,0 +1,46 @@
+body{
+    background: #ffffff; 
+    background: -webkit-linear-gradient(to right, #ffeeee, #f7f7f7);  
+    background: linear-gradient(to right, #fcfcfc, #eeeeee); 
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#imagemEsquerda {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.input-box {
+    display: block;
+    margin: 10px auto;
+}
+
+.alert {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+}
